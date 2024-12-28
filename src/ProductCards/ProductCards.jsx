@@ -6,9 +6,6 @@ import preloader from '../assets/preloader.gif'
 function ProductCards({category}) {
   const { products, setProducts } = useProducts();
 
-  console.log("=============",category);
-  
-
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -29,9 +26,6 @@ function ProductCards({category}) {
   if (!products || products.length === 0) {
     return <div className='preloader-container'><img src= {preloader} alt="preloader" className='preloader'/></div>
   }
-
-  console.log(products);
-  
 
   return (
     <div>

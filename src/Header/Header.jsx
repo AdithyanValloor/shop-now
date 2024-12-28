@@ -52,7 +52,7 @@ function Header() {
         <div className="left-icons">
           <button className="btn-user"><i className="bi bi-person"></i></button>
           <button className="btn-cart"><i className="bi bi-cart3"></i></button>
-          {isLoggedin && (<button className='btn-logout' onClick={handleLogin}>Logout <i class="bi bi-box-arrow-right"></i></button>)}
+          {isLoggedin && (<button className='btn-logout' onClick={handleLogin}>Logout <i className="bi bi-box-arrow-right"></i></button>)}
 
           <button className="btn-ham" onClick={toggleHamburger}><i className="bi bi-list"></i></button>
         </div>
