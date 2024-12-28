@@ -1,0 +1,136 @@
+.product-card{
+    width: 300px;
+    background-color: white;
+    border-radius: 0px;
+    /* border: solid 2px black; */
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: box-shadow 0.125s;
+    cursor: pointer;
+}
+
+.product-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.product-img-div{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    object-fit: contain;
+}
+
+.product-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.2s ;
+}
+
+.product-name{
+    font-weight: 600;
+}
+
+.product-description{
+    font-size: 12px;
+}
+
+.product-price{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-textbox{
+    padding: 10px;
+}
+
+.product-description-div{
+    line-height: 1.5em; /* set line height */
+    overflow: hidden; /* hide overflow text */
+    display: -webkit-box; /* create a flexible box */
+    -webkit-line-clamp: 2; /* number of lines to display */
+    -webkit-box-orient: vertical; /* define the box orientation */
+    text-overflow: ellipsis; /* add the ellipsis */
+    margin-bottom: 10px;
+}
+
+.product-rating{
+    background-color: rgb(3, 100, 11);
+    color: white;
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: inline;
+}
+
+.product-btn-add{
+    display: block;
+    padding: 8px 15px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    transition: opacity 0.2s, color 0.2s, background-color 0.2s;
+    cursor: pointer;
+    font-size: 15px;
+    border: solid 2px;
+}
+
+.product-btn-add:hover{
+    color: black;
+    background-color: white;
+}
+
+.product-review{
+    font-size: 12px;
+    display: inline;
+    color: grey;
+    margin-left: 10px;
+}
+
+.product-name-div{
+    height: 50px;
+    line-height: 1.5em; /* set line height */
+    overflow: hidden; /* hide overflow text */
+    display: -webkit-box; /* create a flexible box */
+    -webkit-line-clamp: 2; /* number of lines to display */
+    -webkit-box-orient: vertical; /* define the box orientation */
+    text-overflow: ellipsis; /* add the ellipsis */
+}
+
+/* CARD CONTAINER */
+
+.card-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.produts-type{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.products-type-p{
+    font-size: 30px;
+}
+
+.preloader-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader{
+    width: 80px;
+}

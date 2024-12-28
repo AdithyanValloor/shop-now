@@ -1,0 +1,13 @@
+.home-container{
+    width: 100%;
+    height: 50vh;
+    background-color: #a00324;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-banner{
+    width: 100%;
+    object-fit: contain;
+}
